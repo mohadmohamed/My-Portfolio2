@@ -168,23 +168,143 @@ a:hover {
     font-weight: 500;
     color: #43432f;
 }
+.project-container {
+    position: relative;
+    overflow: hidden;
+}
 
-#projects{
-    height: 800px;
+.project-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.proj-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6); /* Slight black background */
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+.project-container:hover img {
+    transform: scale(1.07);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    filter: blur(3px); /* Blur the image */
+}
+
+.project-container:hover .proj-description {
+    opacity: 1; /* Show the description on hover */
+}
+
+/* Retaining your existing grid layout */
+#projects {
+    height: auto;
+    background-color: white;
+    margin: 15px 60px;
+    display: grid;
+    border: #2f2d2d52 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    grid-template-rows: 0/5fr 3fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "hd hd hd"
+        "s1 s2 s3"
+        "s4 s5 s6";
+}
+
+#projects h1 {
+    grid-area: hd;
+    background-color: #5a633f;
+    color: #f0f0f0;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    border: 3px #373e22 solid;
+    margin-bottom: 15px;
+}
+
+#projects .myproj {
+    background-color: #545454;
+    border-radius: 8px;
+    padding: 8px;
+    border: 3px #000000 solid;
+    margin: 15px;
+}
+
+#projects .myproj a:hover {
+    border: none;
+}
+
+#projects .myproj img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .myproj img:hover {
+    transform: scale(1.1); /* Slight zoom */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#projects #s01 {
+    grid-area: s1;
+}
+
+#projects #s02 {
+    grid-area: s2;
+}
+
+#projects #s03 {
+    grid-area: s3;
+}
+
+#projects #s04 {
+    grid-area: s4;
+    margin-bottom: 20px;
+}
+
+#projects #s05 {
+    grid-area: s5;
+    margin-bottom: 20px;
+}
+
+#projects #s06 {
+    grid-area: s6;
+    margin-bottom: 20px;
+}
+
+
+ /* #projects{
+    height:auto;
     background-color: white;
     margin: 15px 60px;
     display: grid;
     border:#2f2d2d52 2px solid;
     border-radius: 10px;
     padding: 10px;
-    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-rows: 0/5fr 3fr 3fr;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: 
     "hd hd hd"
     "s1 s2 s3"
     "s4 s5 s6";
     
-}
+} 
 
 #projects h1{
     grid-area: hd;
@@ -196,14 +316,15 @@ a:hover {
     font-weight: 600;
     text-align: center;
     border:3px #373e22 solid;
+    margin-bottom: 15px;
 }
 
 #projects .myproj{
-    background-color:#545454;
+    background-color:#ffffff4f;
     border-radius: 8px; 
     padding: 8px;
-    border:3px #000000ad solid;
-    margin: 10px;
+    border:3px #5A633F solid;
+    margin: 15px;
 }
  
 
@@ -219,13 +340,12 @@ a:hover {
   }
   
   #projects .myproj img:hover {
-    transform: scale(1.07); /* Slight zoom */
+    transform: scale(1.07); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
   }
   
 #projects #s01{
     grid-area: s1;
-
 }
 
    
@@ -242,15 +362,15 @@ a:hover {
 
 #projects #s04{
     grid-area: s4;
-
+    margin-bottom: 20px;
 }
 
 #projects #s05{
     grid-area: s5;
-
+    margin-bottom: 20px;
 }
 
 #projects #s06{
     grid-area: s6;
-
-}
+    margin-bottom: 20px;
+}  */

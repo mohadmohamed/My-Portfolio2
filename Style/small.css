@@ -26,7 +26,7 @@
     
     .head #right a {
         margin: 5px;
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .head #links a{
@@ -52,7 +52,7 @@
     }
     
     .main #banner img{
-        width: 320px;
+        width: 310px;
         height: 100px;
         border-radius: 10px;
         border: #373e22 2px solid;
@@ -199,10 +199,159 @@
     margin-bottom: 20px;
 }
 
+#skills{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: #ffff;
+    border:#2f2d2d84 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#skills h1{
+    background-color: #5a633f;
+    color: #f0f0f0;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    border: 3px #373e22 solid;
+    margin-bottom: 10px;    
+}
+
+#skills .myskills{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+     
+ }
+ #skills .myskills .ms{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:#00000084 3px solid;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #F4F2EE;
+  
+}
+ #skills .myskills .ms img{
+    margin-top: 5px;
+    width: 40px;
+    height:40px;
+}
+#skills .myskills .ms p{
+    font-size: 12px;
+    color: black;
+    font-weight:500;
+    padding: 5px;
+    text-align: center;
+}
 
 
 
+#contact { 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: #ffff;
+    border:#2f2d2d84 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
 
+#contact h1 {
+    background-color: #5a633f;
+    color: #f0f0f0;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    border: 3px #373e22 solid;
+    margin-bottom: 10px;  
+}
+
+#contact form {
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    margin-top: 5px;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 7px;
+    padding: 10px;
+    border: 1px solid #5e5a5a;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 80%;
+    resize: none;
+}
+#contact input:hover, #contact textarea:hover{  
+   border: 2px solid black;
+
+}
+
+#contact button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5a633f; /* Match the header color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+#contact form #sub{
+    width: 50%;
+    align-self: center;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#contact button:hover {
+    background-color: #3e4134; /* Darker shade for hover effect */
+}
+
+#contact a {
+    margin-top: 10px;
+    display: inline-block; /* Ensure proper alignment */
+}
+
+#contact a:hover{
+    border: none;
+}
+#contact a #b2{
+    padding: 13px 30px;
+    border: 1px solid black;
+
+}
+
+.project-name{
+    display: none;
+}
 
 
 

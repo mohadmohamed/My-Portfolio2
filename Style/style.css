@@ -505,10 +505,11 @@ a:hover {
 #contact form #sub{
     width: 50%;
     align-self: center;
+    border: 2px solid black;
 }
 
 #contact button:hover {
-    background-color: #3e4134; /* Darker shade for hover effect */
+    background-color: #373a2a; /* Darker shade for hover effect */
 }
 
 #contact a {
@@ -521,7 +522,9 @@ a:hover {
 }
 #contact a #b2{
     padding: 13px 50px;
+    border: 2px solid black;
 }
+
 
 .project-name{
     display: none;

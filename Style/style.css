@@ -1,6 +1,8 @@
+
 html{
     background-color:#F4F2EE;
     scroll-behavior: smooth;
+    width: 100%;
 
 }
 
@@ -520,3 +522,4 @@ a:hover {
 #contact a #b2{
     padding: 13px 50px;
 }
+

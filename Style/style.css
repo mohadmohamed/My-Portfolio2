@@ -523,3 +523,7 @@ a:hover {
     padding: 13px 50px;
 }
 
+.project-name{
+    display: none;
+}
+

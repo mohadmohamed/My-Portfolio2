@@ -1,5 +1,5 @@
 
-@media (min-width: 901px) and (max-width: 1100px) {
+@media (min-width: 901px) and (max-width: 1200px) {
 html{
     background-color:#F4F2EE;
     scroll-behavior: smooth;
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .main #banner img{
-   width: 800px;
+   width: 750px;
    height: 240px;
    border-radius: 10px;
    border: #373e22 2px solid;

@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 900px) {
     .head {
         display: flex;
         flex-direction: column;
@@ -52,8 +52,8 @@
     }
     
     .main #banner img{
-        width: 310px;
-        height: 83px;
+        width: 490px;
+        height: 130px;
         border-radius: 10px;
         border: #373e22 2px solid;
     
@@ -84,7 +84,7 @@
 }
 
 #aboutme h2{
-    font-size: 20px; 
+    font-size: 23px; 
     margin: 10px 0px 5px 0px; 
     font-weight: 510; 
     color: #43432f;
@@ -93,7 +93,7 @@
 #aboutme #txt{
     margin: 0px 7px;
     text-align: justfiy;
-    font-size: 10px ;
+    font-size: 12px ;
     font-weight: 550;
     color: #43432f;
 }

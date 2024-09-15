@@ -1,6 +1,4 @@
-@import url(./large.css);
-@import url(./medium.css);
-@import url(./small.css);
+
 html{
     background-color:#F4F2EE;
     scroll-behavior: smooth;
